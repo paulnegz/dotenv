@@ -34,6 +34,7 @@ return {
     window = {
       mappings = {
         ['\\'] = 'close_window',
+        ['<esc>'] = 'close_window',
         [']'] = { 'toggle_preview', config = { use_float = false, use_image_nvim = true } },
         ['l'] = 'focus_preview',
         ['<C-b>'] = { 'scroll_preview', config = { direction = 10 } },
